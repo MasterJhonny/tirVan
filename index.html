@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title page -->
+    <title>Calculo de TIR y VAN</title>
+    <!-- link styles -->
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header class="header">
+        <img src="./Calculator_30001.jpg" alt="logo corporativo" class="header__logo"/>
+        <h1 class="header__title">Calculo de TIR y VAN</h1>
+    </header>
+    <main class="main">
+        <section class="entrada">
+            <h2 class="entrada__title"></h2>
+            <label>
+                <span>Ingresa el valor del monto:</span>
+                <input type="number">
+            </label>
+            <label>
+                <span>Ingresa los flujos:</span>
+                <input type="number" id="flujo">
+                <button class="btn" onclick="pushEvent()">ingresar</button>
+            </label>
+            <p id="content"></p>
+        </section>
+    </main>
+    <footer class="footer">
+        <a href="#">Politicas de Privacidad</a>
+        <a href="#">Ver mas</a>
+    </footer>
+    <script src="./main.js" ></script>
+</body>
+</html>
